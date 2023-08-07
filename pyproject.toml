@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "to-do-list"
+version = "0.1.0"
+description = "CRUD REST API using Django"
+authors = ["Travers La Ville <traverslaville@gmail.com>"]
+license = "GNU General Public License v3.0"
+readme = "README.md"
+packages = [{include = "to_do_list"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
