@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "to-do-list"
+name = "to_do_list"
 version = "0.1.0"
 description = "CRUD REST API using Django"
 authors = ["Travers La Ville <traverslaville@gmail.com>"]
