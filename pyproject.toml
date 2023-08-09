@@ -10,6 +10,7 @@ packages = [{include = "to_do_list"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 django = "^4.2.4"
+djangorestframework = "^3.14.0"
 
 
 [build-system]
